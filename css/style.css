@@ -1,0 +1,163 @@
+@import url(reset.css);
+
+@font-face {
+  src: url("../font/le-murmure.otf");
+  font-family: "Lemurmure";
+  font-weight: 200;
+}
+
+::selection {
+  color: #f4bcfb;
+  background: #e5e000;
+}
+
+.image {
+  height: 810px;
+  width: 1920px;
+  background-image: url(..//img/main.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.logo {
+  background-color: #e5e000;
+  height: 100px;
+  width: 1920px;
+  position: fixed;
+}
+.logo:hover {
+  color: #f4bcfb;
+}
+
+#logo {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 100px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  padding-left: 80px;
+}
+
+nav {
+  padding-left: 80px;
+}
+
+.page-container {
+  padding-left: 80px;
+  margin-top: 110px;
+}
+
+.section-heading {
+  font-family: "Lemurmure";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 124px;
+  line-height: 57px;
+  color: #000000;
+  margin-bottom: 23px;
+}
+
+.section-text {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 58px;
+  color: #000000;
+}
+
+.main-botton {
+  width: 200px;
+  height: 100px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 20px;
+  color: #000000;
+  padding-top: 10px;
+  margin-top: 10px;
+  background: #e5e000;
+  border: 4px solid #333333;
+  box-sizing: border-box;
+}
+
+.main-botton:hover {
+  background: #f4bcfb;
+}
+
+.links {
+  height: 100px;
+  width: 1920px;
+  background-color: #e5e000;
+}
+
+.menu {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 100px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.menu-link {
+  color: #ffffff;
+  padding-right: 28px;
+  /* text-decoration: none ; */
+}
+
+.menu-link:hover {
+  color: #f4bcfb;
+}
+
+.footer-container {
+  background-color: #e5e000;
+  height: 100px;
+  width: 1920px;
+}
+
+.footer {
+  margin-top: 30px;
+}
+.footer-logo {
+  padding-top: 20px;
+  display: flex;
+  padding-right: 300px;
+}
+
+.footer-container-info {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 100px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #ffffff;
+  padding-left: 1080px;
+  background-image: url(../img/logo_mcs.png);
+  background-repeat: no-repeat;
+  background-position-x: 80px;
+  background-position-y: 25px;
+}
+
+.footer-link {
+  color: white;
+}
+
+.footer-link:hover {
+  color: #f4bcfb;
+}
+
+.footer-font {
+  margin-top: 30px;
+  padding-left: 80px;
+  margin-bottom: 30px;
+}
