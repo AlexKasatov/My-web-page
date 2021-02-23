@@ -38,7 +38,11 @@
   display: flex;
   align-items: center;
   color: #ffffff;
-  padding-left: 80px;
+  /* padding-left: 80px; */
+}
+
+#logo {
+  padding-left: 42px;
 }
 
 nav {
