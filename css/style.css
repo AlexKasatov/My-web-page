@@ -73,6 +73,11 @@ nav {
   color: #000000;
 }
 
+.section-text a {
+  color: inherit;
+  /* text-decoration: none; */
+}
+
 .main-botton {
   width: 200px;
   height: 100px;
